@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1367561BE24DC10061F3A8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1367551BE24DC10061F3A8 /* NotificationCenter.framework */; };
+		4B1367591BE24DC10061F3A8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1367581BE24DC10061F3A8 /* TodayViewController.swift */; };
+		4B13675C1BE24DC10061F3A8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B13675A1BE24DC10061F3A8 /* MainInterface.storyboard */; };
+		4B1367601BE24DC10061F3A8 /* Viagem SanAndres.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B1367541BE24DC10061F3A8 /* Viagem SanAndres.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B13FBFF1BE38B5F00F78A8B /* Today_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13FBFE1BE38B5E00F78A8B /* Today_Cell.swift */; };
+		4B15AC441BDE7D72006676FF /* TB_Roteiros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15AC431BDE7D72006676FF /* TB_Roteiros.swift */; };
+		4B15AC461BDE83D2006676FF /* TB_Roteiros_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15AC451BDE83D2006676FF /* TB_Roteiros_Cell.swift */; };
+		4B1D04501BC97BCC0029520F /* config.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D044F1BC97BCC0029520F /* config.png */; };
+		4B1D04531BC97D4F0029520F /* Configuracoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D04521BC97D4F0029520F /* Configuracoes.swift */; };
+		4B1D04561BC97F7B0029520F /* colombia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D04541BC97F7B0029520F /* colombia.jpg */; };
+		4B1D04571BC97F7B0029520F /* mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D04551BC97F7B0029520F /* mexico.png */; };
+		4B1D04591BC985E40029520F /* usd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D04581BC985E40029520F /* usd.png */; };
+		4B3318191BA0A579005BBAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3318181BA0A579005BBAE8 /* AppDelegate.swift */; };
+		4B33181E1BA0A579005BBAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B33181C1BA0A579005BBAE8 /* Main.storyboard */; };
+		4B3318201BA0A579005BBAE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B33181F1BA0A579005BBAE8 /* Images.xcassets */; };
+		4B3318231BA0A579005BBAE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3318211BA0A579005BBAE8 /* LaunchScreen.xib */; };
+		4B33182F1BA0A579005BBAE8 /* DolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B33182E1BA0A579005BBAE8 /* DolarTests.swift */; };
+		4B3318531BA0A7E0005BBAE8 /* TB_Cotacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3318521BA0A7E0005BBAE8 /* TB_Cotacoes.swift */; };
+		4B3318551BA0A7FD005BBAE8 /* Cell_Cotacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3318541BA0A7FD005BBAE8 /* Cell_Cotacoes.swift */; };
+		4B3318571BA0B4DA005BBAE8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3318561BA0B4DA005BBAE8 /* UIColorExtension.swift */; };
+		4B57B6781BF20EC800932482 /* NovoRoteiro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57B6771BF20EC800932482 /* NovoRoteiro.xib */; };
+		4B57B67A1BF20FA300932482 /* Novo_Roteiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57B6791BF20FA300932482 /* Novo_Roteiro.swift */; };
+		4B6150B01BCDD50B007278BB /* san-andres.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B6150AF1BCDD50B007278BB /* san-andres.png */; };
+		4B6150B21BCDD869007278BB /* playa_del_carmen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B6150B11BCDD869007278BB /* playa_del_carmen.png */; };
+		4BE0E7981BC7EB150078233F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE0E7971BC7EB150078233F /* Alamofire.framework */; };
+		4BE0E79B1BC7EFE20078233F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E79A1BC7EFE20078233F /* Menu.swift */; };
+		4BE0E79D1BC7F0AE0078233F /* Menu_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E79C1BC7F0AE0078233F /* Menu_Cell.swift */; };
+		4BE0E7A81BC7F4C80078233F /* anotacoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E79F1BC7F4C80078233F /* anotacoes.png */; };
+		4BE0E7A91BC7F4C80078233F /* conversao.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A01BC7F4C80078233F /* conversao.png */; };
+		4BE0E7AA1BC7F4C80078233F /* cotacao.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A11BC7F4C80078233F /* cotacao.png */; };
+		4BE0E7AB1BC7F4C80078233F /* datas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A21BC7F4C80078233F /* datas.png */; };
+		4BE0E7AC1BC7F4C80078233F /* dicas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A31BC7F4C80078233F /* dicas.png */; };
+		4BE0E7AD1BC7F4C80078233F /* gastos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A41BC7F4C80078233F /* gastos.png */; };
+		4BE0E7AE1BC7F4C80078233F /* hospedagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A51BC7F4C80078233F /* hospedagem.png */; };
+		4BE0E7AF1BC7F4C80078233F /* passagens.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A61BC7F4C80078233F /* passagens.png */; };
+		4BE0E7B01BC7F4C80078233F /* roteiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7A71BC7F4C80078233F /* roteiro.png */; };
+		4BE0E7B31BC803010078233F /* TB_Conversao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E7B21BC803010078233F /* TB_Conversao.swift */; };
+		4BE0E7B51BC8048F0078233F /* TB_Conversao_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E7B41BC8048F0078233F /* TB_Conversao_Cell.swift */; };
+		4BE0E7B81BC824B50078233F /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0E7B71BC8249F0078233F /* FontAwesome.otf */; };
+		4BE0E7BB1BC839210078233F /* Funcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E7BA1BC839210078233F /* Funcoes.swift */; };
+		4BE1C3EF1BE12CC700E7258D /* roteiros.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1C3EE1BE12CC700E7258D /* roteiros.png */; };
+		4BE1C3F11BE1377300E7258D /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1C3F01BE1377300E7258D /* like.png */; };
+		4BE1C3F31BE13AF100E7258D /* like_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1C3F21BE13AF100E7258D /* like_yes.png */; };
+		4BE1C3F51BE1562200E7258D /* roteiros_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1C3F41BE1562200E7258D /* roteiros_no.png */; };
+		50205C70A73E2F74DBA0E74E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F84FBAFB10035184D71A6DB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B13675E1BE24DC10061F3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B33180B1BA0A578005BBAE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1367531BE24DC10061F3A8;
+			remoteInfo = "Viagem SanAndres";
+		};
+		4B3318291BA0A579005BBAE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B33180B1BA0A578005BBAE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3318121BA0A579005BBAE8;
+			remoteInfo = Dolar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B1367641BE24DC20061F3A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B1367601BE24DC10061F3A8 /* Viagem SanAndres.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1DD7491BA1E0F90066D90A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B1367541BE24DC10061F3A8 /* Viagem SanAndres.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Viagem SanAndres.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1367551BE24DC10061F3A8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4B1367581BE24DC10061F3A8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4B13675B1BE24DC10061F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4B13675D1BE24DC10061F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1367651BE24DCF0061F3A8 /* Viagem SanAndres.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Viagem SanAndres.entitlements"; sourceTree = "<group>"; };
+		4B1367661BE298AE0061F3A8 /* SanAndres.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SanAndres.entitlements; sourceTree = "<group>"; };
+		4B13FBFE1BE38B5E00F78A8B /* Today_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Today_Cell.swift; sourceTree = "<group>"; };
+		4B15AC431BDE7D72006676FF /* TB_Roteiros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB_Roteiros.swift; sourceTree = "<group>"; };
+		4B15AC451BDE83D2006676FF /* TB_Roteiros_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB_Roteiros_Cell.swift; sourceTree = "<group>"; };
+		4B1D044F1BC97BCC0029520F /* config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = config.png; sourceTree = "<group>"; };
+		4B1D04521BC97D4F0029520F /* Configuracoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuracoes.swift; sourceTree = "<group>"; };
+		4B1D04541BC97F7B0029520F /* colombia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colombia.jpg; sourceTree = "<group>"; };
+		4B1D04551BC97F7B0029520F /* mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mexico.png; sourceTree = "<group>"; };
+		4B1D04581BC985E40029520F /* usd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usd.png; sourceTree = "<group>"; };
+		4B3318131BA0A579005BBAE8 /* SanAndres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanAndres.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3318171BA0A579005BBAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3318181BA0A579005BBAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B33181D1BA0A579005BBAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B33181F1BA0A579005BBAE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B3318221BA0A579005BBAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4B3318281BA0A579005BBAE8 /* SanAndres.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanAndres.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B33182D1BA0A579005BBAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B33182E1BA0A579005BBAE8 /* DolarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarTests.swift; sourceTree = "<group>"; };
+		4B3318521BA0A7E0005BBAE8 /* TB_Cotacoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB_Cotacoes.swift; sourceTree = "<group>"; };
+		4B3318541BA0A7FD005BBAE8 /* Cell_Cotacoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_Cotacoes.swift; sourceTree = "<group>"; };
+		4B3318561BA0B4DA005BBAE8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4B57B6771BF20EC800932482 /* NovoRoteiro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NovoRoteiro.xib; sourceTree = "<group>"; };
+		4B57B6791BF20FA300932482 /* Novo_Roteiro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Novo_Roteiro.swift; sourceTree = "<group>"; };
+		4B6150AF1BCDD50B007278BB /* san-andres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "san-andres.png"; sourceTree = "<group>"; };
+		4B6150B11BCDD869007278BB /* playa_del_carmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playa_del_carmen.png; sourceTree = "<group>"; };
+		4BE0E7971BC7EB150078233F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		4BE0E79A1BC7EFE20078233F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4BE0E79C1BC7F0AE0078233F /* Menu_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Cell.swift; sourceTree = "<group>"; };
+		4BE0E79F1BC7F4C80078233F /* anotacoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anotacoes.png; sourceTree = "<group>"; };
+		4BE0E7A01BC7F4C80078233F /* conversao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversao.png; sourceTree = "<group>"; };
+		4BE0E7A11BC7F4C80078233F /* cotacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cotacao.png; sourceTree = "<group>"; };
+		4BE0E7A21BC7F4C80078233F /* datas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datas.png; sourceTree = "<group>"; };
+		4BE0E7A31BC7F4C80078233F /* dicas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dicas.png; sourceTree = "<group>"; };
+		4BE0E7A41BC7F4C80078233F /* gastos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gastos.png; sourceTree = "<group>"; };
+		4BE0E7A51BC7F4C80078233F /* hospedagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospedagem.png; sourceTree = "<group>"; };
+		4BE0E7A61BC7F4C80078233F /* passagens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passagens.png; sourceTree = "<group>"; };
+		4BE0E7A71BC7F4C80078233F /* roteiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roteiro.png; sourceTree = "<group>"; };
+		4BE0E7B21BC803010078233F /* TB_Conversao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB_Conversao.swift; sourceTree = "<group>"; };
+		4BE0E7B41BC8048F0078233F /* TB_Conversao_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB_Conversao_Cell.swift; sourceTree = "<group>"; };
+		4BE0E7B71BC8249F0078233F /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		4BE0E7BA1BC839210078233F /* Funcoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funcoes.swift; sourceTree = "<group>"; };
+		4BE1C3EE1BE12CC700E7258D /* roteiros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roteiros.png; sourceTree = "<group>"; };
+		4BE1C3F01BE1377300E7258D /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		4BE1C3F21BE13AF100E7258D /* like_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_yes.png; sourceTree = "<group>"; };
+		4BE1C3F41BE1562200E7258D /* roteiros_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roteiros_no.png; sourceTree = "<group>"; };
+		8F84FBAFB10035184D71A6DB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CC265A14854204E44DC25C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F4806478BDA1A602126385F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1367511BE24DC10061F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1367561BE24DC10061F3A8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3318101BA0A579005BBAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE0E7981BC7EB150078233F /* Alamofire.framework in Frameworks */,
+				50205C70A73E2F74DBA0E74E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3318251BA0A579005BBAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1367571BE24DC10061F3A8 /* Viagem SanAndres */ = {
+			isa = PBXGroup;
+			children = (
+				4B1367651BE24DCF0061F3A8 /* Viagem SanAndres.entitlements */,
+				4B1367581BE24DC10061F3A8 /* TodayViewController.swift */,
+				4B13FBFE1BE38B5E00F78A8B /* Today_Cell.swift */,
+				4B13675A1BE24DC10061F3A8 /* MainInterface.storyboard */,
+				4B13675D1BE24DC10061F3A8 /* Info.plist */,
+			);
+			path = "Viagem SanAndres";
+			sourceTree = "<group>";
+		};
+		4B15AC421BDE7D26006676FF /* Roteiros */ = {
+			isa = PBXGroup;
+			children = (
+				4B15AC431BDE7D72006676FF /* TB_Roteiros.swift */,
+				4B57B6771BF20EC800932482 /* NovoRoteiro.xib */,
+				4B57B6791BF20FA300932482 /* Novo_Roteiro.swift */,
+				4B15AC451BDE83D2006676FF /* TB_Roteiros_Cell.swift */,
+			);
+			name = Roteiros;
+			sourceTree = "<group>";
+		};
+		4B1D04511BC97D310029520F /* Configuracoes */ = {
+			isa = PBXGroup;
+			children = (
+				4B1D04521BC97D4F0029520F /* Configuracoes.swift */,
+			);
+			name = Configuracoes;
+			sourceTree = "<group>";
+		};
+		4B33180A1BA0A578005BBAE8 = {
+			isa = PBXGroup;
+			children = (
+				4B1367661BE298AE0061F3A8 /* SanAndres.entitlements */,
+				4B3318151BA0A579005BBAE8 /* Dolar */,
+				4B33182B1BA0A579005BBAE8 /* DolarTests */,
+				4B1367571BE24DC10061F3A8 /* Viagem SanAndres */,
+				4B3318141BA0A579005BBAE8 /* Products */,
+				98779D6C4D44479F7422AF33 /* Pods */,
+				5E9518D928C72A14F8F0F7FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3318141BA0A579005BBAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3318131BA0A579005BBAE8 /* SanAndres.app */,
+				4B3318281BA0A579005BBAE8 /* SanAndres.xctest */,
+				4B1367541BE24DC10061F3A8 /* Viagem SanAndres.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3318151BA0A579005BBAE8 /* Dolar */ = {
+			isa = PBXGroup;
+			children = (
+				4B15AC421BDE7D26006676FF /* Roteiros */,
+				4B1D04511BC97D310029520F /* Configuracoes */,
+				4BE0E7B91BC839160078233F /* Funcoes */,
+				4BE0E7B61BC824950078233F /* Fontes */,
+				4BE0E7B11BC802BE0078233F /* Conversao */,
+				4BE0E79E1BC7F4BA0078233F /* imagens */,
+				4BE0E7991BC7EFC80078233F /* Menu */,
+				4B3318511BA0A7B7005BBAE8 /* CotacoesDia */,
+				4B3318381BA0A6D6005BBAE8 /* Bibliotecas */,
+				4B3318181BA0A579005BBAE8 /* AppDelegate.swift */,
+				4B33181C1BA0A579005BBAE8 /* Main.storyboard */,
+				4B33181F1BA0A579005BBAE8 /* Images.xcassets */,
+				4B3318211BA0A579005BBAE8 /* LaunchScreen.xib */,
+				4B3318161BA0A579005BBAE8 /* Supporting Files */,
+			);
+			path = Dolar;
+			sourceTree = "<group>";
+		};
+		4B3318161BA0A579005BBAE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3318171BA0A579005BBAE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B33182B1BA0A579005BBAE8 /* DolarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B33182E1BA0A579005BBAE8 /* DolarTests.swift */,
+				4B33182C1BA0A579005BBAE8 /* Supporting Files */,
+			);
+			path = DolarTests;
+			sourceTree = "<group>";
+		};
+		4B33182C1BA0A579005BBAE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B33182D1BA0A579005BBAE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B3318381BA0A6D6005BBAE8 /* Bibliotecas */ = {
+			isa = PBXGroup;
+			children = (
+				4B3318561BA0B4DA005BBAE8 /* UIColorExtension.swift */,
+			);
+			name = Bibliotecas;
+			sourceTree = "<group>";
+		};
+		4B3318511BA0A7B7005BBAE8 /* CotacoesDia */ = {
+			isa = PBXGroup;
+			children = (
+				4B3318521BA0A7E0005BBAE8 /* TB_Cotacoes.swift */,
+				4B3318541BA0A7FD005BBAE8 /* Cell_Cotacoes.swift */,
+			);
+			name = CotacoesDia;
+			sourceTree = "<group>";
+		};
+		4BE0E7991BC7EFC80078233F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E79A1BC7EFE20078233F /* Menu.swift */,
+				4BE0E79C1BC7F0AE0078233F /* Menu_Cell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		4BE0E79E1BC7F4BA0078233F /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				4BE1C3F41BE1562200E7258D /* roteiros_no.png */,
+				4BE1C3F21BE13AF100E7258D /* like_yes.png */,
+				4BE1C3F01BE1377300E7258D /* like.png */,
+				4B6150AF1BCDD50B007278BB /* san-andres.png */,
+				4B6150B11BCDD869007278BB /* playa_del_carmen.png */,
+				4BE1C3EE1BE12CC700E7258D /* roteiros.png */,
+				4B1D04581BC985E40029520F /* usd.png */,
+				4B1D04541BC97F7B0029520F /* colombia.jpg */,
+				4B1D04551BC97F7B0029520F /* mexico.png */,
+				4B1D044F1BC97BCC0029520F /* config.png */,
+				4BE0E79F1BC7F4C80078233F /* anotacoes.png */,
+				4BE0E7A01BC7F4C80078233F /* conversao.png */,
+				4BE0E7A11BC7F4C80078233F /* cotacao.png */,
+				4BE0E7A21BC7F4C80078233F /* datas.png */,
+				4BE0E7A31BC7F4C80078233F /* dicas.png */,
+				4BE0E7A41BC7F4C80078233F /* gastos.png */,
+				4BE0E7A51BC7F4C80078233F /* hospedagem.png */,
+				4BE0E7A61BC7F4C80078233F /* passagens.png */,
+				4BE0E7A71BC7F4C80078233F /* roteiro.png */,
+			);
+			name = imagens;
+			sourceTree = "<group>";
+		};
+		4BE0E7B11BC802BE0078233F /* Conversao */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E7B21BC803010078233F /* TB_Conversao.swift */,
+				4BE0E7B41BC8048F0078233F /* TB_Conversao_Cell.swift */,
+			);
+			name = Conversao;
+			sourceTree = "<group>";
+		};
+		4BE0E7B61BC824950078233F /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E7B71BC8249F0078233F /* FontAwesome.otf */,
+			);
+			name = Fontes;
+			sourceTree = "<group>";
+		};
+		4BE0E7B91BC839160078233F /* Funcoes */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E7BA1BC839210078233F /* Funcoes.swift */,
+			);
+			name = Funcoes;
+			sourceTree = "<group>";
+		};
+		5E9518D928C72A14F8F0F7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E7971BC7EB150078233F /* Alamofire.framework */,
+				8F84FBAFB10035184D71A6DB /* Pods.framework */,
+				4B1367551BE24DC10061F3A8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98779D6C4D44479F7422AF33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC265A14854204E44DC25C /* Pods.debug.xcconfig */,
+				F4806478BDA1A602126385F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B1367531BE24DC10061F3A8 /* Viagem SanAndres */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1367611BE24DC20061F3A8 /* Build configuration list for PBXNativeTarget "Viagem SanAndres" */;
+			buildPhases = (
+				4B1367501BE24DC10061F3A8 /* Sources */,
+				4B1367511BE24DC10061F3A8 /* Frameworks */,
+				4B1367521BE24DC10061F3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viagem SanAndres";
+			productName = "Viagem SanAndres";
+			productReference = 4B1367541BE24DC10061F3A8 /* Viagem SanAndres.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4B3318121BA0A579005BBAE8 /* SanAndres */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3318321BA0A579005BBAE8 /* Build configuration list for PBXNativeTarget "SanAndres" */;
+			buildPhases = (
+				4241678C85B35F4BAD0E5FF3 /* Check Pods Manifest.lock */,
+				4B33180F1BA0A579005BBAE8 /* Sources */,
+				4B3318101BA0A579005BBAE8 /* Frameworks */,
+				4B3318111BA0A579005BBAE8 /* Resources */,
+				4B1DD7491BA1E0F90066D90A /* Embed Frameworks */,
+				F2DFC6C56E67229B6DD4AA6D /* Embed Pods Frameworks */,
+				BF83AF733A6D72C154496366 /* Copy Pods Resources */,
+				4B1367641BE24DC20061F3A8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B13675F1BE24DC10061F3A8 /* PBXTargetDependency */,
+			);
+			name = SanAndres;
+			productName = Dolar;
+			productReference = 4B3318131BA0A579005BBAE8 /* SanAndres.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3318271BA0A579005BBAE8 /* SanAndresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3318351BA0A579005BBAE8 /* Build configuration list for PBXNativeTarget "SanAndresTests" */;
+			buildPhases = (
+				4B3318241BA0A579005BBAE8 /* Sources */,
+				4B3318251BA0A579005BBAE8 /* Frameworks */,
+				4B3318261BA0A579005BBAE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B33182A1BA0A579005BBAE8 /* PBXTargetDependency */,
+			);
+			name = SanAndresTests;
+			productName = DolarTests;
+			productReference = 4B3318281BA0A579005BBAE8 /* SanAndres.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B33180B1BA0A578005BBAE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = PrimeSoftware;
+				TargetAttributes = {
+					4B1367531BE24DC10061F3A8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 522BQLMRYA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4B3318121BA0A579005BBAE8 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 522BQLMRYA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4B3318271BA0A579005BBAE8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4B3318121BA0A579005BBAE8;
+					};
+				};
+			};
+			buildConfigurationList = 4B33180E1BA0A578005BBAE8 /* Build configuration list for PBXProject "SanAndres" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B33180A1BA0A578005BBAE8;
+			productRefGroup = 4B3318141BA0A579005BBAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3318121BA0A579005BBAE8 /* SanAndres */,
+				4B3318271BA0A579005BBAE8 /* SanAndresTests */,
+				4B1367531BE24DC10061F3A8 /* Viagem SanAndres */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B1367521BE24DC10061F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B13675C1BE24DC10061F3A8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3318111BA0A579005BBAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE0E7B81BC824B50078233F /* FontAwesome.otf in Resources */,
+				4B1D04561BC97F7B0029520F /* colombia.jpg in Resources */,
+				4B6150B01BCDD50B007278BB /* san-andres.png in Resources */,
+				4B1D04571BC97F7B0029520F /* mexico.png in Resources */,
+				4BE0E7A81BC7F4C80078233F /* anotacoes.png in Resources */,
+				4BE0E7AB1BC7F4C80078233F /* datas.png in Resources */,
+				4B57B6781BF20EC800932482 /* NovoRoteiro.xib in Resources */,
+				4BE1C3EF1BE12CC700E7258D /* roteiros.png in Resources */,
+				4BE0E7AD1BC7F4C80078233F /* gastos.png in Resources */,
+				4B1D04591BC985E40029520F /* usd.png in Resources */,
+				4BE0E7AA1BC7F4C80078233F /* cotacao.png in Resources */,
+				4BE0E7B01BC7F4C80078233F /* roteiro.png in Resources */,
+				4BE1C3F11BE1377300E7258D /* like.png in Resources */,
+				4BE0E7A91BC7F4C80078233F /* conversao.png in Resources */,
+				4B6150B21BCDD869007278BB /* playa_del_carmen.png in Resources */,
+				4B33181E1BA0A579005BBAE8 /* Main.storyboard in Resources */,
+				4B3318231BA0A579005BBAE8 /* LaunchScreen.xib in Resources */,
+				4BE0E7AC1BC7F4C80078233F /* dicas.png in Resources */,
+				4BE0E7AF1BC7F4C80078233F /* passagens.png in Resources */,
+				4BE0E7AE1BC7F4C80078233F /* hospedagem.png in Resources */,
+				4B3318201BA0A579005BBAE8 /* Images.xcassets in Resources */,
+				4BE1C3F51BE1562200E7258D /* roteiros_no.png in Resources */,
+				4BE1C3F31BE13AF100E7258D /* like_yes.png in Resources */,
+				4B1D04501BC97BCC0029520F /* config.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3318261BA0A579005BBAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4241678C85B35F4BAD0E5FF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF83AF733A6D72C154496366 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DFC6C56E67229B6DD4AA6D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1367501BE24DC10061F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1367591BE24DC10061F3A8 /* TodayViewController.swift in Sources */,
+				4B13FBFF1BE38B5F00F78A8B /* Today_Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B33180F1BA0A579005BBAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3318571BA0B4DA005BBAE8 /* UIColorExtension.swift in Sources */,
+				4B3318191BA0A579005BBAE8 /* AppDelegate.swift in Sources */,
+				4BE0E7BB1BC839210078233F /* Funcoes.swift in Sources */,
+				4BE0E79D1BC7F0AE0078233F /* Menu_Cell.swift in Sources */,
+				4B15AC461BDE83D2006676FF /* TB_Roteiros_Cell.swift in Sources */,
+				4B3318551BA0A7FD005BBAE8 /* Cell_Cotacoes.swift in Sources */,
+				4B3318531BA0A7E0005BBAE8 /* TB_Cotacoes.swift in Sources */,
+				4B15AC441BDE7D72006676FF /* TB_Roteiros.swift in Sources */,
+				4B1D04531BC97D4F0029520F /* Configuracoes.swift in Sources */,
+				4BE0E79B1BC7EFE20078233F /* Menu.swift in Sources */,
+				4BE0E7B51BC8048F0078233F /* TB_Conversao_Cell.swift in Sources */,
+				4B57B67A1BF20FA300932482 /* Novo_Roteiro.swift in Sources */,
+				4BE0E7B31BC803010078233F /* TB_Conversao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3318241BA0A579005BBAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B33182F1BA0A579005BBAE8 /* DolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B13675F1BE24DC10061F3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1367531BE24DC10061F3A8 /* Viagem SanAndres */;
+			targetProxy = 4B13675E1BE24DC10061F3A8 /* PBXContainerItemProxy */;
+		};
+		4B33182A1BA0A579005BBAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3318121BA0A579005BBAE8 /* SanAndres */;
+			targetProxy = 4B3318291BA0A579005BBAE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B13675A1BE24DC10061F3A8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B13675B1BE24DC10061F3A8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4B33181C1BA0A579005BBAE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B33181D1BA0A579005BBAE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3318211BA0A579005BBAE8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3318221BA0A579005BBAE8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B1367621BE24DC20061F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = "Viagem SanAndres/Viagem SanAndres.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Viagem SanAndres/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.primesoftware.SanAndres.Viagem-SanAndres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B1367631BE24DC20061F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = "Viagem SanAndres/Viagem SanAndres.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Viagem SanAndres/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.primesoftware.SanAndres.Viagem-SanAndres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4B3318301BA0A579005BBAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3318311BA0A579005BBAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3318331BA0A579005BBAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CC265A14854204E44DC25C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SanAndres.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Dolar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SanAndres;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4B3318341BA0A579005BBAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4806478BDA1A602126385F8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SanAndres.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Dolar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SanAndres;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4B3318361BA0A579005BBAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SanAndres;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanAndres.app/SanAndres";
+			};
+			name = Debug;
+		};
+		4B3318371BA0A579005BBAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SanAndres;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanAndres.app/SanAndres";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1367611BE24DC20061F3A8 /* Build configuration list for PBXNativeTarget "Viagem SanAndres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1367621BE24DC20061F3A8 /* Debug */,
+				4B1367631BE24DC20061F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B33180E1BA0A578005BBAE8 /* Build configuration list for PBXProject "SanAndres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3318301BA0A579005BBAE8 /* Debug */,
+				4B3318311BA0A579005BBAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3318321BA0A579005BBAE8 /* Build configuration list for PBXNativeTarget "SanAndres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3318331BA0A579005BBAE8 /* Debug */,
+				4B3318341BA0A579005BBAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3318351BA0A579005BBAE8 /* Build configuration list for PBXNativeTarget "SanAndresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3318361BA0A579005BBAE8 /* Debug */,
+				4B3318371BA0A579005BBAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B33180B1BA0A578005BBAE8 /* Project object */;
+}
